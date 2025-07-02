@@ -16,3 +16,13 @@ O conteúdo mínimo deverá contemplar:
 - Pelo menos 2 microserviços se comunicando com os frameworks Java apresentados em sala;
 - Pelo menos 1 design pattern dentre os apresentados na sala de aula ou nas referências bibliográficas;
 - Validação de código via Sonar (Opcional)
+
+# Warming up
+
+Como minha experiência é pequena em Java, mesmo tendo participado do curso ao longo de seis semanas e colaborado em um trabalho anterior, vou listar abaixo os pontos importantes ensinados através de um tutorial disponível no YouTube do canal Programming with Mosh:
+
+[Spring Boot Tutorial for Beginners [2025]](https://www.youtube.com/watch?v=gJrjgg1KVL4)
+
+O código-fonte do próprio Mosh Hamedani está disponível em [spring-store](https://github.com/mosh-hamedani/spring-store). E cada um de seus commits corresponde a uma lição de seu curso.
+
+## Iniciando...
