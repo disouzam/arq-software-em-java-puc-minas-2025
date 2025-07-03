@@ -34,3 +34,11 @@ O diagrama abaixo, reproduzido do vídeo do Mosh Hamedani citado acima, resume a
 ## JDK
 
 Para esse trabalho, irei adotar o JDK Correto fornecido pela Amazon e usarei a versão 21.0.7, disponível em: [Amazon Corretto 21 Installation Instructions for Windows 10 or Later](https://docs.aws.amazon.com/corretto/latest/corretto-21-ug/windows-install.html), conforme sugerido na disciplina. Outros Java Development Kits estão disponíveis, alguns gratuitos como o Corretto e outros sujeitos a licenciamento, mas não discutirei as implicações nem diferenças aqui. Recomendo um excelente resposta sobre o assunto no Stack Overflow: [Several vendors offer a choice of Java implementations](https://stackoverflow.com/questions/58250782/which-free-version-of-java-can-i-use-for-production-environments-and-or-commerci/58260110#58260110)
+
+O comando `java -version` produz o seguinte resultado no meu computador:
+
+```shell
+openjdk version "21.0.7" 2025-04-15 LTS
+OpenJDK Runtime Environment Corretto-21.0.7.6.1 (build 21.0.7+6-LTS)
+OpenJDK 64-Bit Server VM Corretto-21.0.7.6.1 (build 21.0.7+6-LTS, mixed mode, sharing)
+```
