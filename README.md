@@ -64,3 +64,9 @@ Java version: 21.0.7, vendor: Amazon.com Inc., runtime: {...}\corretto-21.0.7
 Default locale: pt_BR, platform encoding: UTF-8
 OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
 ```
+
+## Criação do primeiro projeto
+
+A criação do projeto será executada por meio da ferramenta disponível no site [start.spring.io](start.spring.io) conforme apresentado na imagem abaixo:
+
+![Spring Initializr](./spring-initializr.png)
