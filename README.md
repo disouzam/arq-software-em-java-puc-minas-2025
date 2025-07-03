@@ -42,3 +42,25 @@ openjdk version "21.0.7" 2025-04-15 LTS
 OpenJDK Runtime Environment Corretto-21.0.7.6.1 (build 21.0.7+6-LTS)
 OpenJDK 64-Bit Server VM Corretto-21.0.7.6.1 (build 21.0.7+6-LTS, mixed mode, sharing)
 ```
+
+## IDE
+
+Graças à disponibilidade de licença de estudante para o IntelliJ Idea Ultimate, essa será a IDE escolhida para esse trabalho mas tentarei replicar os resultados e testes também no Eclipse
+
+## Ferramentas de Build
+
+Dentre as duas ferramentas mais populares de build, será adotado o Maven por sua popularidade. Essa é a mesma ferramenta adotada nas aulas da PUC Minas. Então não há diferenças aqui.
+
+Maven já havia sido instalado em meu computador em outra ocasião pelo caminho sugerido pelo Mosh no vídeo: usando o Chocolatey para efetuar o download e instalação: 
+- [Installing Chocolatey](https://chocolatey.org/install?_gl=1*1gzkr8j*_ga*MTc0Mjc5MTE1OS4xNzUxMjI3NTk4*_ga_0WDD29GGN2*czE3NTEyMjc1OTgkbzEkZzEkdDE3NTEyMjc3MjMkajMzJGwwJGgw)
+- [Apache Maven](https://maven.apache.org/install.html)
+
+O resultado do comando `mvn -v` está mostrado abaixo, com alguns trechos removidos:
+
+```shell
+Apache Maven 3.9.10 (5f519b97e944483d878815739f519b2eade0a91d)
+Maven home: {...}\apache-maven-3.9.10
+Java version: 21.0.7, vendor: Amazon.com Inc., runtime: {...}\corretto-21.0.7
+Default locale: pt_BR, platform encoding: UTF-8
+OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
+```
