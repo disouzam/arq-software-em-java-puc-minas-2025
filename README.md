@@ -26,3 +26,7 @@ Como minha experiência é pequena em Java, mesmo tendo participado do curso ao 
 O código-fonte do próprio Mosh Hamedani está disponível em [spring-store](https://github.com/mosh-hamedani/spring-store). E cada um de seus commits corresponde a uma lição de seu curso.
 
 ## Iniciando...
+
+O diagrama abaixo, reproduzido do vídeo do Mosh Hamedani citado acima, resume as principais idéias por trás do framework Spring e da relação com o Spring Boot. Parafraseando o Mosh, o Spring Boot veio para facilitar a adoção do Spring por meio de uma série de recursos prontos ou pré-configurados.
+
+![Spring e Spring Boot](spring-and-spring-boot.png)
