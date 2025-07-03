@@ -70,3 +70,9 @@ OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
 A criação do projeto será executada por meio da ferramenta disponível no site [start.spring.io](start.spring.io) conforme apresentado na imagem abaixo:
 
 ![Spring Initializr](./spring-initializr.png)
+
+## Dependências para começar o projeto
+
+O uso de uma dependência como a `spring-boot-starter-web` permite incluir várias dependências usadas regularmente em conjunto de uma só vez. O papel das dependências que compõem o spring-boot-starter-web (ou parte dele) é melhor explicado pelo diagrama abaixo que mostra que várias bibliotecas relevantes são incluidas junto com o starter-web.
+
+![Starter web dependencies](./starter-dependencies.png)
