@@ -76,3 +76,19 @@ A criação do projeto será executada por meio da ferramenta disponível no sit
 O uso de uma dependência como a `spring-boot-starter-web` permite incluir várias dependências usadas regularmente em conjunto de uma só vez. O papel das dependências que compõem o spring-boot-starter-web (ou parte dele) é melhor explicado pelo diagrama abaixo que mostra que várias bibliotecas relevantes são incluidas junto com o starter-web.
 
 ![Starter web dependencies](./starter-dependencies.png)
+
+## Como executar o projeto
+
+Para executar o projeto, que dispõe, momentaneamente de uma controladora `Home` e uma página estática HTML no diretório `resources`, há duas formas principais:
+
+1. Diretamente a partir de configuração criada no IntelliJ Idea Ultimate
+
+![Como rodar diretamente do IntelliJ Idea](./how-to-run-IntelliJ-Idea-Ultimate.png)
+
+2. Ou por meio da linha de comando e dos wrappers já fornecidos pelo Spring Initializr
+
+```shell
+./mvnw spring-boot:run
+```
+
+Em ambos os casos, em seguida abra o browser de sua preferência e digite a seguinte URL: [http://localhost:8080/](http://localhost:8080/)
